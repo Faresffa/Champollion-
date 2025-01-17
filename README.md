@@ -1,6 +1,7 @@
 # 🏛️ Projet Champollion
 
 ![Bannière Champollion](/api/placeholder/1200/300)
+![Bannière Champollion](https://unsplash.com/fr/photos/un-gros-plan-dun-objet-en-pierre-avec-une-ecriture-dessus-yWkOdR3vXds)
 
 Champollion est un projet d'intelligence artificielle qui vise à révolutionner l'analyse des hiéroglyphes de l'Égypte antique grâce au deep learning. Nommé en l'honneur de Jean-François Champollion, le déchiffreur de la pierre de Rosette, ce projet utilise des réseaux de neurones de pointe pour classifier et interpréter les écritures hiéroglyphiques.
 
@@ -58,7 +59,7 @@ champollion/
 - **[Fares Hafiane](https://github.com/Faresffa)** - Directeur du projet
 - **[Skander Hariga](https://github.com/skandjo)** - Expert en Égyptologie
 - **[Aboubacrine Seck](https://github.com/abou-s)** - Lead Developer  
-- **[JC Emmanuel Mopeno-Bia](https://github.com/claude-morningstar47)** - Lead Developer 
+- **[JC Emmanuel Mopeno-Bia](https://github.com/morningstar-47)** - Lead Developer 
 - **[Amine Hamouma](https://github.com/HamoumaAmine)** - Lead Developer
     
 ## 📈 Résultats
