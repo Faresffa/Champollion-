@@ -1,9 +1,9 @@
 import pandas as pd
 
 # Chemin vers le fichier CSV
-csv_path1 = "E:/projects hetic/deeplearning/Champollion/test/_annotations.csv"
-csv_path2 = "E:/projects hetic/deeplearning/Champollion/train/_annotations.csv"
-csv_path3 = "E:/projects hetic/deeplearning/Champollion/valid/_annotations.csv"
+csv_path1 = "E:/projects hetic/deeplearning/Champollion/dataset/test/_annotations.csv"
+csv_path2 = "E:/projects hetic/deeplearning/Champollion/dataset/train/_annotations.csv"
+csv_path3 = "E:/projects hetic/deeplearning/Champollion/dataset/valid/_annotations.csv"
 
 
 # Lire le fichier CSV
@@ -11,7 +11,8 @@ annotations1 = pd.read_csv(csv_path1)
 annotations2 = pd.read_csv(csv_path2)
 annotations3 = pd.read_csv(csv_path3)
 # Afficher la première ligne sous forme de tableau lisible
-print(annotations1.head(1))  # head(1) affiche les premières lignes du DataFrame
+# head(1) affiche les premières lignes du DataFrame
+print(annotations1.head(1))
 
 # Compter le nombre d'images distinctes
 unique_images1 = annotations1['filename'].nunique()
