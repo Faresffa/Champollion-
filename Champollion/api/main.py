@@ -33,7 +33,7 @@ model.load_state_dict(torch.load('path/to/your/model.pth'))
 model.eval()
 
 
-@app.route('/predict', methods=['POST'])
+@app.route('/api/analyze-hieroglyph', methods=['POST'])
 def predict():
     if 'image' not in request.files:
         return jsonify({'error': 'No image provided'}), 400
